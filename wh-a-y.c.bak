@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+  char a='A',b,c='A';
+  while(a<=5)
+    { 
+		b='A';
+		while(b<=5)
+		{
+			printf(" %c ",c++);
+			b++;
+		}
+		printf("\n");
+		a++;
+	} 
+       
+}   

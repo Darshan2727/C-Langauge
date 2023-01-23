@@ -1,0 +1,50 @@
+#include<stdio.h>
+int main()
+{
+	int a[5][5],i,j;
+	int b[5][5],x,y;
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			printf("enter a[%d][%d]:",i,j);
+			scanf("%d",&a[i][j]);
+			//printf("enter b[%d][%d]:",i,j);
+			//scanf("%d",&b[i][j]);
+		}
+	}
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			printf("%d",a[i][j]);
+			//printf("\t%d",b[i][j]);
+			//printf("\t%d",(a[i][j]+b[i][j]));
+		
+		
+		}
+		printf("\n");
+	}
+	for(x=0;x<3;x++)
+	{
+		for(y=0;y<3;y++)
+		{
+			printf("enter b[%d][%d]:",x,y);
+			scanf("%d",&b[x][y]);
+			//printf("enter b[%d][%d]:",i,j);
+			//scanf("%d",&b[i][j]);
+		}
+	}
+	for(x=0;x<3;x++)
+	{
+		for(y=0;y<3;y++)
+		{
+			printf("%d",b[x][y]);
+			//printf("\t%d",b[i][j]);
+			//printf("\t%d",(a[i][j]+b[i][j]));
+		}
+	
+		printf("\n");
+	}
+	printf("%d",(a[i][j]+b[i][j]));
+}	

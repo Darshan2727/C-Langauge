@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+  int a[]={65,61,78},i;
+  int b[]={100,95,90};
+  int c[]={40,50,35};
+  
+  for(i=0;i<3;i++)
+	{
+		printf("\n %d",a[i]);
+		printf("\t %d",b[i]);
+		printf("\t %d",c[i]);
+		printf("\t %d",(a[i]+b[i]+c[i]));
+		printf("\t %.2d",(a[i]+b[i]+c[i])/3);
+	}
+}	

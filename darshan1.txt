@@ -1,0 +1,17 @@
+#include<stdio.h>
+int fibo(int n)
+{
+    int a=0,b=1,c,i;
+    int j=fibo(10);
+    for(i=0;i<j;i++)
+    {
+        c=a+b;
+        printf("\n fibbonaci of given number is:%d",c); 
+        a=b;
+        b=c;
+    }
+}
+int main()
+{
+    fibo(0);
+}
