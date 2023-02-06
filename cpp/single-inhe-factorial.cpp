@@ -20,8 +20,7 @@ class derived : public base
 public:
     void getdata()
     {
-
-        cout << "Factorial number of a is:" << fact;
+        cout << "Factorial of " << a << " is: " << fact << endl;
     }
 };
 int main()
