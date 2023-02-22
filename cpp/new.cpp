@@ -3,6 +3,7 @@ using namespace std;
 class students
 {
     int admno;
+    
     char sname[20];
     float english,maths,science,total;
     float ctotal()
