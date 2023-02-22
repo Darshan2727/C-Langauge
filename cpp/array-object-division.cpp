@@ -10,7 +10,7 @@ class box
     }
     int get()
     {
-        cout<<"Division is:"<<l/h<<endl;
+        cout<<"Division is:"<<(float)l/h<<endl;
     }
 };
 int main()
