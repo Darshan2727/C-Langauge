@@ -41,3 +41,4 @@ int main()
     a.takedata();
     a.showdata();
 }
+//result
