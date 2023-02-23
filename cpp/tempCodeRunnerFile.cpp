@@ -1,23 +1,34 @@
 #include<iostream>
 using namespace std;
-class test
+class test1
 {
     public:
-    test()
+    void test()
     {
-        cout<<"Default constructor is called.."<<endl;
+        cout<<"Default is called..."<<endl;
     }
-    ~test()
+    void test(int a)
     {
-        cout<<"Destructor constructor is called.."<<endl;
+        cout<<"parameterized constructor is called..."<<a<<endl;
     }
-    test(int a)
+    void test(int a,int b)
     {
-        cout<<"Parameterized constructor is caled..a:"<<a<<endl;
+        cout<<"two parameterized constructor is called..."<<a<<"and"<<b<<endl;
     }
-    
+    void test(char a)
+    {
+        cout<<"one char constructor is called..."<<a<<endl;
+    }
+    void test(double a)
+    {
+        cout<<"double is called..."<<a<<endl;
+    }
 };
 int main()
 {
-    test a,b(20);
+    test1 a;
+    a.test();
+    a.test(6,7);
+    a.test(10.73);
+    a.test('J');
 }
