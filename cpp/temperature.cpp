@@ -6,6 +6,6 @@ int main()
     float fahrenheit;
     cout<<"Celsius:";
     cin>>celsius;
-    fahrenheit=(celsius*9/5)+32;
-    cout<<"Fahrenheit:"<<fahrenheit;
+    fahrenheit=(float)(celsius*9/5)+32;
+    cout<<"Fahrenheit:"<<(float)fahrenheit;
 }
