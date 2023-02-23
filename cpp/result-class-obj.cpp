@@ -25,7 +25,11 @@ class result
         cout<<"\t"<<english;
         cout<<"\t"<<total;
         cout<<"\t"<<(float)per;
-        if(per>90)
+        if(science<33 || maths<33 || english<33)
+        {
+            cout<<"\t Fail";
+        }
+        else if(per>90)
         {
             cout<<"\t A+";
         }
@@ -48,10 +52,6 @@ class result
         else if(per>33)
         {
             cout<<"\t D";
-        }
-        else if(per<33)
-        {
-            cout<<"\t Fail";
         }
     }
 };
