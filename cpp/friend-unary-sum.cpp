@@ -10,7 +10,10 @@ class num
     }
     void getdata()
     {
-        cout<<"Num is:"<<r<<"+"<<i<<"i"<<endl;
+        if(r<i)
+        {
+            cout<<"Largest Number is"
+        }
     }
     friend num operator++(num);
 };
