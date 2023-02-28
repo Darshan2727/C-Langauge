@@ -25,6 +25,6 @@ float main()
     {
         charge=(unit*15)/100+50;
     }
-    printf("total amount is: %f",charge);
+    printf("total amount is: %.2f",charge);
     printf("%f",addition(charge,unit));
 }
