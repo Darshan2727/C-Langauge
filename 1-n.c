@@ -1,9 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int a=1,n;
+	int a = 1, n;
 	printf("enter number:");
-	scanf("%d",&n);
+	scanf("%d", &n);
 	/*while(a<=n)
 	{
 	  printf(" %d",a);
@@ -11,7 +11,7 @@ int main()
 	}*/
 	do
 	{
-		printf(" %d",a);
+		printf(" %d", a);
 		a++;
-	}while(a<=n);	
-}	
+	} while (a <= n);
+}

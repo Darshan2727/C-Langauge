@@ -1,20 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-   int i=1,n;
+   int i = 1, n;
    printf("enter number:");
-   scanf("%d",&n);
-  /* while(i<=n)
-   {
-	  printf(" %d",i*i);
-	  i++;
-   }
-}*/   
- 
-	do
-	{	
+   scanf("%d", &n);
+   /* while(i<=n)
+    {
       printf(" %d",i*i);
       i++;
-    }while(i<=n);
-	
-}	
+    }
+ }*/
+
+   do
+   {
+      printf(" %d", i * i);
+      i++;
+   } while (i <= n);
+}
