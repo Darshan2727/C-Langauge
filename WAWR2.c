@@ -1,5 +1,5 @@
 #include<stdio.h>
-float addition(float unit charge,float unit)
+float addition(float charge,float unit)
 {
      return charge,unit;
 }
