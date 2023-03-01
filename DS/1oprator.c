@@ -48,6 +48,10 @@ int main()
     // printf("i: %d, i: %d, i: %d, i: %d",i--,--i,i--,--i);
     // printf("i: %d, i: %d, i: %d, i: %d",i++,++i,i--,i--);
     // printf("i: %d, i: %d, i: %d, i: %d",i--,--i,i++,++i);
+    // printf("i: %d, i: %d, i: %d, i: %d",i--,--i,--i,++i);
+    // printf("i: %d, i: %d, i: %d, i: %d",--i,++i,i++,++i);
+    // printf("i: %d, i: %d, i: %d, i: %d",--i,++i,i++,i--);
+    printf("i: %d, i: %d, i: %d, i: %d",i++,--i,i--,++i);
    
 
 }
