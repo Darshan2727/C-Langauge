@@ -20,7 +20,7 @@ int main()
     for (i = 0; i < aa; i++) {
         c[i] = a[i];
     }
-    for (i = 0, j = aa; j < total && i < bb; i++, j++) 
+    for (i = 0, j = aa; j < total && i < bb; i++, j++)  
     {
         c[j] = b[i];
     }
