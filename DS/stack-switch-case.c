@@ -47,7 +47,8 @@ int main()
         case 2:
         pop();
         break;
+    default:
+        printf("\nWrong Choice");    
     }
-    display();
-    
+    display(); 
 }
