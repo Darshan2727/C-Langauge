@@ -18,11 +18,11 @@ int aa()
     printf("\n 1.push:");
     printf("\n 2.Pop:");
     scanf("%d",&ch);
-
+}
 switch(ch)
 {
     case 1;
-    // int push(int val)
+    int push(int val)
 
     {
         if(top>=n-1)
@@ -34,19 +34,17 @@ switch(ch)
     }
     break;
     case 2;
-    // int pop()
+    int pop()
     {
         if(top<0)
             printf("\nArray is Empty..");
         else
             --top;
     }
-    break;
-    default;
+default;
     printf("\n wrong choice:");
-    break;
 }
-}
+
     
 int main()
 {

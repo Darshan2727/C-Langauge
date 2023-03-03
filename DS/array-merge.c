@@ -13,9 +13,6 @@ int main()
     {
         printf(" %d",b[i]);
     }
-
-    // int aa=5,bb=5;
-    // int total= aa + bb;
     int c[20];
     for (i = 0; i < 5; i++) {
         c[i] = a[i];
