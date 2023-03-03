@@ -21,6 +21,7 @@ int push(int val)
         a[top] = val;
     }
 }
+
 int pop()
 {
     if (top < 0)
