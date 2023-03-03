@@ -14,21 +14,21 @@ int main()
         printf(" %d",b[i]);
     }
 
-    int aa=5,bb=5;
-    int total= aa + bb;
-    int c[total];
-    for (i = 0; i < aa; i++) {
+    // int aa=5,bb=5;
+    // int total= aa + bb;
+    int c[20];
+    for (i = 0; i < 5; i++) {
         c[i] = a[i];
     }
-    for (i = 0, j = aa; j < total && i < bb; i++, j++) 
+    for (j = 0; j < 5;  j++) 
     {
-        c[j] = b[i];
+        c[i++] = b[j];
     }
  
     printf("\nAfter Merge:");
-    for (i = 0; i < total; i++) 
+    for (j = 0; j < i; j++) 
     {
-        printf("%d ", c[i]);
+        printf("%d ", c[j]);
     }
     
 }
