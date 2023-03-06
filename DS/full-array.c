@@ -2,7 +2,7 @@
 #include <stdio.h>
 #define n 5
 int a[n];
-int top = -1, i,top1=0;
+int top = -1, i,top1=0,ii;
 
 int display()
 {        
@@ -23,7 +23,7 @@ int push(int val)
     }
 }
 
-int finsert(int in)
+int fpush(int in)
 {
     // if (0 >= n - 1)
     //     printf("Array is full.....\n");
@@ -43,7 +43,7 @@ int finsert(int in)
       }
       a[0]= in;
       ++top;
-      for(i=0;i<n;i++);
+    //   for(i=0;i<n;i++);
       printf("Enter element is: %d",in);
     }
 
@@ -56,6 +56,31 @@ int pop()
     {
         printf("Enter element is: %d",a[top]);
         --top;
+    }
+}
+int fpop()
+{
+     if (top < 0)
+        printf("\nArray is Empty..");
+    else
+    {
+        // a[0]=a[i];
+        // printf("Enter element is: %d",a[i]);
+        // --i;
+        // --top;
+          printf("Enter element is: %d",a[0]);
+          for(i=0;i<n;i++)
+       {
+           a[i]=a[i+1];
+       }
+       
+         --top;
+      
+    //   a[0]= ii;
+      
+    //   for(i=0;i<n;i++);
+    //   printf("Enter element is: %d",a[top]);
+    //   --top;
     }
 }
 int main()
@@ -85,8 +110,11 @@ int main()
         case 3:
             printf("Enter element: ");
             scanf("%d",&y);
-            finsert(y);
+            fpush(y);
             break;
+        case 4:
+            fpop();
+            break;    
         case 9:
             display();
             break;
