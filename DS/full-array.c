@@ -1,4 +1,4 @@
-// stack with switch case
+// stack with switch case, add element in begining of array
 #include <stdio.h>
 #define n 5
 int a[n];
@@ -46,7 +46,6 @@ int finsert(int in)
       for(i=0;i<n;i++);
       printf("Enter element is: %d",in);
     }
-//     a.unshift();
 
 }
 int pop()
