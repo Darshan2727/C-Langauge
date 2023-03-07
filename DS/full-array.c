@@ -89,6 +89,7 @@ int main()
     printf("1. push:");
     printf("\n2. pop:");
     printf("\n3. first insert:");
+    printf("\n4. first delete:");
     printf("\n9. display:");
     printf("\n0. Exit");
 
