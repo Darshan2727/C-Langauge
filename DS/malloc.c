@@ -54,7 +54,7 @@ void delete()
     }
     else
     {
-        while (ptr->next == NULL)
+        while (ptr->next != NULL)
         {
             prev = ptr;
             ptr = ptr->next;
@@ -73,7 +73,8 @@ int main()
     insertend(50);
     insertend(60);
     display();
-    delete();
-    
-    display();   
+    delete ();
+    delete ();
+    delete ();
+    display();
 }
